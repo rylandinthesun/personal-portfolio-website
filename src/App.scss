@@ -1,0 +1,227 @@
+$dark: #698474;
+$green: #889e81;
+$light: #bac7a7;
+$cream: #e5e4cc;
+$lightCream: #fffbdf;
+
+.sidebar {
+	background-color: $cream;
+}
+
+.about-header {
+	font-family: 'Montserrat', sans-serif;
+	h3 {
+		line-height: 1;
+		font-weight: 800;
+		color: #333;
+	}
+}
+
+.about-name {
+	font-family: 'Montserrat', sans-serif;
+	color: $dark;
+	h1 {
+		font-weight: 900;
+		letter-spacing: -2.5px;
+		font-size: 6.4vh;
+		transform-origin: translateX(20px) translateY(0px) translateZ(0px);
+		transition: opacity 500ms ease 0s, transform 500ms ease 0s;
+		transform: translateX(0px) translateY(0px) translateZ(0px);
+	}
+}
+
+.about-body {
+	border-top: 1px solid $green;
+	p {
+		font-size: small;
+		font-family: 'Montserrat', sans-serif;
+		color: $green;
+		a {
+			text-decoration: none;
+			font-weight: 600;
+			color: $dark;
+		}
+	}
+}
+
+.linkedin-icon {
+	font-size: xx-large;
+	color: #2867b2;
+	opacity: 0.5;
+	cursor: pointer;
+	transition: opacity 0.4s ease-in-out;
+}
+
+.linkedin-icon:hover {
+	opacity: 1;
+	color: #2867b2;
+}
+
+.github-icon {
+	font-size: xx-large;
+	color: #333;
+	opacity: 0.5;
+	cursor: pointer;
+	transition: opacity 0.4s ease-in-out;
+}
+
+.github-icon:hover {
+	opacity: 1;
+	color: #333;
+}
+
+.instagram-icon {
+	font-size: xx-large;
+	opacity: 0.5;
+	cursor: pointer;
+	color: #fcaf45;
+	transition: opacity 0.4s ease-in-out;
+}
+
+.instagram-icon:hover {
+	opacity: 1;
+	color: #fcaf45;
+}
+
+.twitter-icon {
+	font-size: xx-large;
+	opacity: 0.5;
+	cursor: pointer;
+	transition: opacity 0.4s ease-in-out;
+	color: #1da1f2;
+}
+
+.twitter-icon:hover {
+	opacity: 1;
+	color: #1da1f2;
+}
+
+.email-btn {
+	font-family: 'Montserrat', sans-serif;
+}
+
+button {
+	border: 3px solid $dark;
+	outline: none;
+	color: $lightCream;
+	background-color: $dark;
+	padding: 8px 20px;
+	font-size: smaller;
+	transition: 0.4s ease;
+}
+
+button:hover {
+	background-color: $lightCream;
+	color: $dark;
+	box-shadow: 4px 4px;
+}
+
+button:active {
+	box-shadow: 0px 0px;
+	transition: 0.2s;
+	transform: translateY(0px);
+}
+
+.project-1 {
+	width: 100%;
+	height: 600px;
+	background-color: $green;
+}
+
+.project-2 {
+	width: 100%;
+	height: 600px;
+	background-color: $light;
+}
+
+.project-2-title {
+	p {
+		a {
+			color: $lightCream;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 18px;
+			font-weight: 700;
+			text-decoration: none;
+			opacity: 0.6;
+			transition: all 0.3s;
+		}
+	}
+}
+
+.project-2-title {
+	p {
+		a:hover {
+			opacity: 1;
+		}
+	}
+}
+
+.project-2-footer {
+	p {
+		font-family: 'Montserrat', sans-serif;
+		color: $lightCream;
+		font-size: 12px;
+		font-weight: 300;
+		display: inline;
+	}
+}
+
+.project-3 {
+	width: 100%;
+	height: 600px;
+	background-color: $green;
+	h4 {
+		color: $lightCream;
+	}
+}
+
+footer {
+	text-align: center;
+	background-color: $dark;
+	p {
+		color: $lightCream;
+		font-size: 11px;
+		font-weight: 300;
+	}
+}
+
+.slide-in {
+	animation: slideMe .6s;
+}
+.slide-in-2 {
+	animation: slideMe2 1.2s;
+}
+.slide-in-3 {
+	animation: slideMe3 1.8s;
+}
+
+@keyframes slideMe {
+	0% {
+		transform: translateX(-50px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+@keyframes slideMe2 {
+	0% {
+		transform: translateX(-100px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+@keyframes slideMe3 {
+	0% {
+		transform: translateX(-150px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
