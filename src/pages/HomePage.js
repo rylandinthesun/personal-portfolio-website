@@ -1,42 +1,13 @@
-import React, { useRef } from 'react';
-import { useIntersection } from 'react-use';
-import gsap from 'gsap';
+import React from 'react';
 import { AiFillLinkedin, AiFillGithub, AiOutlineSmile } from 'react-icons/ai';
 import { TiSocialInstagram } from 'react-icons/ti';
 import { FaTwitter } from 'react-icons/fa';
 import swimPic from '../images/swimpic.jpg';
-import lyricallyHome from '../images/lyricallyHome.png';
-import lyricallySearch from '../images/lyricallySearch.png';
+import Calculator from '../components/Calculator';
+import './HomePage.scss';
+import Lyrically from '../components/Lyrically';
 
 const HomePage = () => {
-	const sectionRef = useRef(null);
-	const intersection = useIntersection(sectionRef, {
-		root       : null,
-		rootMargin : '0px',
-		threshold  : 0.5
-	});
-
-	const fadeIn = (e) => {
-		gsap.to(e, 1, {
-			opacity : 1,
-			y       : -5,
-			ease    : 'power4.out',
-			stagger : {
-				amount : 0.3
-			}
-		});
-	};
-
-	const fadeOut = (e) => {
-		gsap.to(e, 1, {
-			opacity : 0,
-			y       : 40,
-			ease    : 'power4.out'
-		});
-	};
-
-	intersection && intersection.intersectionRatio < 0.5 ? fadeOut('.fadeIn') : fadeIn('.fadeIn');
-
 	return (
 		<div className=" flex-grow-1 d-flex flex-column flex-sm-row overflow-auto">
 			<div className="row justify-content-center flex-grow-sm-1 flex-grow-0">
@@ -98,8 +69,8 @@ const HomePage = () => {
 						</a>
 					</div>
 					<div className="ms-5 mt-4 slide-in-2">
-						<a className="email-btn" href="mailto:ryland.oehlers@gmail.com?subject=Website Inquiry">
-							<button>Get In Touch!</button>
+						<a className="email-link" href="mailto:ryland.oehlers@gmail.com?subject=Website Inquiry">
+							<button className="inTouch-btn">Get In Touch!</button>
 						</a>
 					</div>
 				</div>
@@ -114,42 +85,30 @@ const HomePage = () => {
 							/>
 						</div>
 					</div>
-					<div
-						ref={sectionRef}
-						className="project-2 d-flex flex-column justify-content-center align-items-center"
-					>
-						<div className="project-2-title fadeIn d-flex  align-self-start ps-5">
+					<div className="project-2">
+						<Lyrically />
+					</div>
+					<div className="project-3 d-flex flex-column justify-content-center align-items-center">
+						<div className="project-3-title d-flex  align-self-start ps-5">
 							<p>
-								<a href="http://lyrically-by-ryland.herokuapp.com/">Lyrically </a>
-								<a className="ps-1" href="https://github.com/rylandinthesun/Lyrically">
+								<a href="https://github.com/rylandinthesun/react-calculator">Calculator </a>
+								<a className="ps-1" href="https://github.com/rylandinthesun/react-calculator">
 									<AiFillGithub />
 								</a>
 							</p>
 						</div>
-						<div style={{ height: '200px', width: '320px' }} className="fadeIn text-center shadow row mb-2">
-							<img
-								style={{ objectFit: 'cover', height: '100%', width: '100%' }}
-								src={lyricallyHome}
-								className="img-fluid rounded-1 col px-0"
-								alt="Lyrically Homepage"
-							/>
+						<div style={{ width: '300px' }} className="text-center row mb-3">
+							<div className="col">
+								<Calculator />
+							</div>
 						</div>
-						<div style={{ height: '200px', width: '320px' }} className="fadeIn text-center shadow row">
-							<img
-								style={{ objectFit: 'cover', height: '100%', width: '100%' }}
-								src={lyricallySearch}
-								className="img-fluid rounded-1 col px-0"
-								alt="Lyrically Search Page."
-							/>
-						</div>
-						<div className="project-2-footer fadeIn mt-4 w-75 text-center">
+						<div className="project-3-footer mt-4 w-75 text-center">
 							<p>
-								<b style={{ fontWeight: '700' }}>Tech Used:</b> Python, Flask, SQLAlchemy,
-								BeautifulSoup, & Tailwind.
+								<b style={{ fontWeight: '700' }}>Tech Used:</b> React, JavaScript, HTML & SCSS.
 							</p>
 						</div>
 					</div>
-					<div className="project-3 d-flex flex-column justify-content-center align-items-center">
+					<div className="project-4 d-flex flex-column justify-content-center align-items-center">
 						<h4>
 							More Work Coming Soon <AiOutlineSmile />
 						</h4>
