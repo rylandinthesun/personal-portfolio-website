@@ -33,7 +33,7 @@ const Calculator = () => {
 
 	return (
 		<div className="calc">
-			<div className="container">
+			<div className="calc-container">
 				<div className="result">
 					<div className="face">{result}</div>
 				</div>

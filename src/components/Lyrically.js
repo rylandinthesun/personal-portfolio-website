@@ -9,8 +9,15 @@ const Lyrically = () => {
 		<div className="project-2 d-flex flex-column justify-content-center align-items-center">
 			<div className="project-2-title d-flex align-self-start ps-5">
 				<p>
-					<a href="http://lyrically-by-ryland.herokuapp.com/">Lyrically </a>
-					<a className="ps-1" href="https://github.com/rylandinthesun/Lyrically">
+					<a href="http://lyrically-by-ryland.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+						Lyrically{' '}
+					</a>
+					<a
+						className="ps-1"
+						href="https://github.com/rylandinthesun/Lyrically"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						<AiFillGithub />
 					</a>
 				</p>
