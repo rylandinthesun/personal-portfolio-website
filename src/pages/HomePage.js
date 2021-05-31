@@ -2,7 +2,7 @@ import React from 'react';
 import { AiFillLinkedin, AiFillGithub, AiOutlineSmile } from 'react-icons/ai';
 import { TiSocialInstagram } from 'react-icons/ti';
 import { FaTwitter } from 'react-icons/fa';
-import swimPic from '../images/swimpic.jpg';
+import selfPortrait from '../images/selfportrait.jpg';
 import Calculator from '../components/Calculator';
 import './HomePage.scss';
 import Lyrically from '../components/Lyrically';
@@ -76,10 +76,10 @@ const HomePage = () => {
 				</div>
 				<div className="col-sm-7 overflow-auto vh-100 ps-0 pe-0">
 					<div className="project-1 d-flex justify-content-center align-items-center">
-						<div style={{ height: '400px', width: '75%' }} className="text-center shadow row">
+						<div style={{ height: '450px', width: '75%' }} className="text-center shadow row">
 							<img
 								style={{ objectFit: 'cover', height: '100%', width: '100%' }}
-								src={swimPic}
+								src={selfPortrait}
 								className="img-fluid rounded-3 col px-0"
 								alt="Ryland swimming"
 							/>
