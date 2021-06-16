@@ -45,7 +45,7 @@ $lightCream: #fffbdf;
 }
 
 .linkedin-icon {
-	font-size: xx-large;
+	font-size: 30px;
 	color: #2867b2;
 	opacity: 0.5;
 	cursor: pointer;
@@ -58,7 +58,7 @@ $lightCream: #fffbdf;
 }
 
 .github-icon {
-	font-size: xx-large;
+	font-size: 30px;
 	color: #333;
 	opacity: 0.5;
 	cursor: pointer;
@@ -71,7 +71,7 @@ $lightCream: #fffbdf;
 }
 
 .instagram-icon {
-	font-size: xx-large;
+	font-size: 30px;
 	opacity: 0.5;
 	cursor: pointer;
 	color: #fcaf45;
@@ -84,7 +84,7 @@ $lightCream: #fffbdf;
 }
 
 .twitter-icon {
-	font-size: xx-large;
+	font-size: 30px;
 	opacity: 0.5;
 	cursor: pointer;
 	transition: opacity 0.4s ease-in-out;
@@ -94,6 +94,19 @@ $lightCream: #fffbdf;
 .twitter-icon:hover {
 	opacity: 1;
 	color: #1da1f2;
+}
+
+.email-icon {
+	font-size: 30px;
+	opacity: 0.5;
+	cursor: pointer;
+	transition: opacity 0.4s ease-in-out;
+	color: $dark;
+}
+
+.email-icon:hover {
+	opacity: 1;
+	color: $dark;
 }
 
 .email-link {
@@ -221,6 +234,11 @@ footer {
 		font-size: 11px;
 		font-weight: 300;
 	}
+}
+
+.arrow-down {
+	font-size: x-large;
+	color: $light;
 }
 
 .slide-in {

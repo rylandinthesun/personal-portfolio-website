@@ -1,7 +1,9 @@
 import React from 'react';
 import { AiFillLinkedin, AiFillGithub, AiOutlineSmile } from 'react-icons/ai';
 import { TiSocialInstagram } from 'react-icons/ti';
+import { HiOutlineMail } from 'react-icons/hi';
 import { FaTwitter } from 'react-icons/fa';
+import { IoIosArrowDown } from 'react-icons/io';
 import selfPortrait from '../images/selfportrait.jpg';
 import Calculator from '../components/Calculator';
 import './HomePage.scss';
@@ -9,35 +11,38 @@ import Lyrically from '../components/Lyrically';
 
 const HomePage = () => {
 	return (
-		<div className=" flex-grow-1 d-flex flex-column flex-sm-row overflow-auto">
+		<div className="flex-grow-1 d-flex flex-column flex-sm-row overflow-auto">
 			<div className="row justify-content-center flex-grow-sm-1 flex-grow-0">
 				<div className="sidebar col-sm-5 flex-grow-0 sticky-top d-flex flex-column justify-content-center align-items-start vh-100">
 					<div className="about-name mt-5 ms-5">
-						<h1 className="mt-2 slide-in">Ryland Oehlers</h1>
+						<h1 className="mt-2 slide-in pe-3">Ryland Oehlers</h1>
 					</div>
 
 					<div className="about-header slide-in ms-5">
 						<h3 className="mb-0">DEVELOPER.</h3>
-						<h3 className="mb-0">MUSICIAN.</h3>
-						<h3 className="mb-0">CREATIVE</h3>
+						<h3 className="mb-0">DESIGNER.</h3>
+						<h3 className="mb-0">MUSICIAN</h3>
 						<h3 className="mb-0">& HUSBAND.</h3>
 					</div>
 					<div className="about-body ms-5 mt-3 w-75">
 						<p className="pe-3 pt-2 slide-in-2">
-							Currently finishing a Software Engineering Program with
-							<a href="https://www.springboard.com" target="_blank" rel="noopener noreferrer">
-								{' '}
-								@Springboard
-							</a>. Formerly a Professional Full-Time Touring Musician with{' '}
-							<a href="https://www.citizentheband.net" target="_blank" rel="noopener noreferrer">
-								@Citizen
-							</a>. Check out my work and projects below.
+							Software Developer currently based in Ohio who previously worked in the music industry as a
+							Professional Full-Time Touring Musician. Scroll to check out some of my projects or click
+							the links below to get in touch.
 						</p>
 					</div>
 					<div className="about-links slide-in-3 ms-5">
 						<a
+							href="mailto:ryland.oehlers@gmail.com?subject=Website Inquiry"
+							className="email-icon"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<HiOutlineMail />
+						</a>
+						<a
 							href="https://www.linkedin.com/in/rylandoehlers"
-							className="linkedin-icon"
+							className="linkedin-icon ps-1"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -45,7 +50,7 @@ const HomePage = () => {
 						</a>
 						<a
 							href="https://www.github.com/rylandinthesun"
-							className="github-icon ps-2"
+							className="github-icon ps-1"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -53,7 +58,7 @@ const HomePage = () => {
 						</a>
 						<a
 							href="https://www.instagram.com/rylandinthesun"
-							className="instagram-icon ps-2"
+							className="instagram-icon ps-1"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -61,17 +66,17 @@ const HomePage = () => {
 						</a>
 						<a
 							href="https://www.twitter.com/rylandinthesun"
-							className="twitter-icon ps-2"
+							className="twitter-icon ps-1"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
 							<FaTwitter />
 						</a>
 					</div>
-					<div className="ms-5 mt-4 slide-in-2">
-						<a className="email-link" href="mailto:ryland.oehlers@gmail.com?subject=Website Inquiry">
-							<button className="inTouch-btn">Get In Touch!</button>
-						</a>
+					<div className="arrow-down mt-4 pt-4 slide-in-2 w-100">
+						<div className="text-center">
+							<IoIosArrowDown />
+						</div>
 					</div>
 				</div>
 				<div className="col-sm-7 overflow-auto vh-100 ps-0 pe-0">
@@ -88,36 +93,8 @@ const HomePage = () => {
 					<div className="project-2">
 						<Lyrically />
 					</div>
-					<div className="project-3 d-flex flex-column justify-content-center align-items-center">
-						<div className="project-3-title d-flex  align-self-start ps-5">
-							<p>
-								<a
-									href="https://rylandinthesun.github.io/react-calculator/"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									Calculator{' '}
-								</a>
-								<a
-									className="ps-1"
-									href="https://github.com/rylandinthesun/react-calculator"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<AiFillGithub />
-								</a>
-							</p>
-						</div>
-						<div style={{ height: '400px', width: '320px' }} className="text-center row mb-3">
-							<div className="col">
-								<Calculator />
-							</div>
-						</div>
-						<div className="project-3-footer mt-4 w-75 text-center">
-							<p>
-								<b style={{ fontWeight: '700' }}>Tech Used:</b> React, JavaScript, HTML & SCSS.
-							</p>
-						</div>
+					<div className="project-3">
+						<Calculator />
 					</div>
 					<div className="project-4 d-flex flex-column justify-content-center align-items-center">
 						<h4>

@@ -1,7 +1,6 @@
 import React from 'react';
 
-import lyricallyHome from '../images/lyricallyHome.png';
-import lyricallySearch from '../images/lyricallySearch.png';
+import lyricallyHome from '../images/lyricallyMacbookMock.png';
 import { AiFillGithub } from 'react-icons/ai';
 
 const Lyrically = () => {
@@ -22,22 +21,15 @@ const Lyrically = () => {
 					</a>
 				</p>
 			</div>
-			<div style={{ height: '200px', width: '320px' }} className="text-center shadow row mb-2">
+			<div style={{ height: '400px', width: '80%' }} className="text-center row mb-2">
 				<img
-					style={{ objectFit: 'cover', height: '100%', width: '100%' }}
+					style={{ objectFit: 'cover', height: '320px', width: '300px' }}
 					src={lyricallyHome}
-					className="img-fluid rounded-1 col px-0"
+					className="img-fluid rounded-1 col px-0 mt-5"
 					alt="Lyrically Homepage"
 				/>
 			</div>
-			<div style={{ height: '200px', width: '320px' }} className="text-center shadow row">
-				<img
-					style={{ objectFit: 'cover', height: '100%', width: '100%' }}
-					src={lyricallySearch}
-					className="img-fluid rounded-1 col px-0"
-					alt="Lyrically Search Page."
-				/>
-			</div>
+
 			<div className="project-2-footer mt-4 w-75 text-center">
 				<p>
 					<b style={{ fontWeight: '700' }}>Tech Used:</b> Python, Flask, SQLAlchemy, BeautifulSoup, &
