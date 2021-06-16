@@ -25,7 +25,7 @@ const HomePage = () => {
 						<h3 className="mb-0">& HUSBAND.</h3>
 					</div>
 					<div className="about-body ms-5 mt-3 w-75">
-						<p className="pe-3 pt-2 slide-in-2">
+						<p className="pe-3 pt-3 slide-in-2">
 							Software Developer currently based in Ohio who previously worked in the music industry as a
 							Professional Full-Time Touring Musician. Scroll to check out some of my projects or click
 							the links below to get in touch.
