@@ -6,7 +6,7 @@ import { AiFillGithub } from 'react-icons/ai';
 const Lyrically = () => {
 	return (
 		<div className="project-2 d-flex flex-column justify-content-center align-items-center">
-			<div className="project-2-title d-flex align-self-start ps-5">
+			<div className="project-title d-flex align-self-start ps-5">
 				<p>
 					<a href="http://lyrically-by-ryland.herokuapp.com/" target="_blank" rel="noopener noreferrer">
 						Lyrically{' '}
@@ -30,10 +30,10 @@ const Lyrically = () => {
 				/>
 			</div>
 
-			<div className="project-2-footer mt-4 w-75 text-center">
+			<div className="project-footer mt-4 w-75 text-center">
 				<p>
-					<b style={{ fontWeight: '700' }}>Tech Used:</b> Python, Flask, SQLAlchemy, BeautifulSoup, &
-					Tailwind.
+					<b style={{ fontWeight: '700' }}>Tech Used:</b> Python, Flask, SQLAlchemy, BeautifulSoup, Tailwind &
+					Genius Lyrics API.
 				</p>
 			</div>
 		</div>

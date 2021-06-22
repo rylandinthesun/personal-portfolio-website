@@ -8,6 +8,7 @@ import selfPortrait from '../images/selfportrait.jpg';
 import Calculator from '../components/Calculator';
 import './HomePage.scss';
 import Lyrically from '../components/Lyrically';
+import QuoteApp from '../components/QuoteApp';
 
 const HomePage = () => {
 	return (
@@ -96,7 +97,10 @@ const HomePage = () => {
 					<div className="project-3">
 						<Calculator />
 					</div>
-					<div className="project-4 d-flex flex-column justify-content-center align-items-center">
+					<div className="project-4">
+						<QuoteApp />
+					</div>
+					<div className="project-5 d-flex flex-column justify-content-center align-items-center">
 						<h4>
 							More Work Coming Soon <AiOutlineSmile />
 						</h4>

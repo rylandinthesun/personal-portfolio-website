@@ -147,45 +147,19 @@ $lightCream: #fffbdf;
 	background-color: $light;
 }
 
-.project-2-title {
-	p {
-		a {
-			color: $lightCream;
-			font-family: 'Montserrat', sans-serif;
-			font-size: 18px;
-			font-weight: 700;
-			text-decoration: none;
-			opacity: 0.6;
-			transition: all 0.3s;
-		}
-	}
-}
-
-.project-2-title {
-	p {
-		a:hover {
-			opacity: 1;
-		}
-	}
-}
-
-.project-2-footer {
-	p {
-		font-family: 'Montserrat', sans-serif;
-		color: $lightCream;
-		font-size: 12px;
-		font-weight: 300;
-		display: inline;
-	}
-}
-
 .project-3 {
 	width: 100%;
 	height: 600px;
 	background-color: $green;
 }
 
-.project-3-title {
+.project-4 {
+	width: 100%;
+	height: 600px;
+	background-color: $light;
+}
+
+.project-title {
 	p {
 		a {
 			color: $lightCream;
@@ -199,7 +173,7 @@ $lightCream: #fffbdf;
 	}
 }
 
-.project-3-title {
+.project-title {
 	p {
 		a:hover {
 			opacity: 1;
@@ -207,7 +181,7 @@ $lightCream: #fffbdf;
 	}
 }
 
-.project-3-footer {
+.project-footer {
 	p {
 		font-family: 'Montserrat', sans-serif;
 		color: $lightCream;
@@ -217,12 +191,12 @@ $lightCream: #fffbdf;
 	}
 }
 
-.project-4 {
+.project-5 {
 	width: 100%;
 	height: 600px;
-	background-color: $light;
+	background-color: $green;
 	h4 {
-		color: $dark;
+		color: $lightCream;
 	}
 }
 
