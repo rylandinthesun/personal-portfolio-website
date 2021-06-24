@@ -6,8 +6,8 @@ const QuoteApp = () => {
 		<div className="project-4 d-flex flex-column justify-content-center align-items-center">
 			<div className="project-title d-flex align-self-start ps-5">
 				<p>
-					<a href="https://github.com/rylandinthesun/react-quote" target="_blank" rel="noopener noreferrer">
-						Daily Quote{' '}
+					<a href="https://react-quotes-rylandinthesun.vercel.app" target="_blank" rel="noopener noreferrer">
+						Random Quote{' '}
 					</a>
 					<a
 						className="ps-1"
