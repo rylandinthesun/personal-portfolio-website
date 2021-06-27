@@ -22,9 +22,8 @@ const HomePage = () => {
 
 					<div className="about-header slide-in ms-5">
 						<h3 className="mb-0">DEVELOPER.</h3>
-						<h3 className="mb-0">DESIGNER.</h3>
-						<h3 className="mb-0">MUSICIAN</h3>
-						<h3 className="mb-0">& HUSBAND.</h3>
+						<h3 className="mb-0">DESIGNER &</h3>
+						<h3 className="mb-0">MUSICIAN.</h3>
 					</div>
 					<div className="about-body ms-5 mt-3 w-75">
 						<p className="pe-3 pt-3 slide-in-2">
