@@ -135,28 +135,34 @@ $lightCream: #fffbdf;
 	transform: translateY(0px);
 }
 
-.project-1 {
+.photo-section {
 	width: 100%;
 	height: 600px;
 	background-color: $green;
 }
 
-.project-2 {
+.project-lyrically {
 	width: 100%;
 	height: 600px;
 	background-color: $light;
 }
 
-.project-3 {
+.project-calculator {
 	width: 100%;
 	height: 600px;
 	background-color: $green;
 }
 
-.project-4 {
+.project-quote {
 	width: 100%;
 	height: 600px;
 	background-color: $light;
+}
+
+.project-synth {
+	width: 100%;
+	height: 600px;
+	background-color: $green;
 }
 
 .project-title {
@@ -188,15 +194,6 @@ $lightCream: #fffbdf;
 		font-size: 12px;
 		font-weight: 300;
 		display: inline;
-	}
-}
-
-.project-5 {
-	width: 100%;
-	height: 600px;
-	background-color: $green;
-	h4 {
-		color: $lightCream;
 	}
 }
 

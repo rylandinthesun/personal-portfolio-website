@@ -4,7 +4,7 @@ import { AiFillGithub } from 'react-icons/ai';
 
 const Calculator = () => {
 	return (
-		<div className="project-3 d-flex flex-column justify-content-center align-items-center">
+		<div className="project-calculator d-flex flex-column justify-content-center align-items-center">
 			<div className="project-title d-flex align-self-start ps-5">
 				<p>
 					<a

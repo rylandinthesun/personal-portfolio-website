@@ -3,7 +3,7 @@ import { AiFillGithub } from 'react-icons/ai';
 
 const QuoteApp = () => {
 	return (
-		<div className="project-4 d-flex flex-column justify-content-center align-items-center">
+		<div className="project-quote d-flex flex-column justify-content-center align-items-center">
 			<div className="project-title d-flex align-self-start ps-5">
 				<p>
 					<a href="https://react-quotes-rylandinthesun.vercel.app" target="_blank" rel="noopener noreferrer">
@@ -30,7 +30,7 @@ const QuoteApp = () => {
 
 			<div className="project-footer mt-4 w-75 text-center">
 				<p>
-					<b style={{ fontWeight: '700' }}>Tech Used:</b> React, JavaScript, HTML & CSS, Zen Quotes API.
+					<b style={{ fontWeight: '700' }}>Tech Used:</b> React, JavaScript, HTML/CSS & Quotable API.
 				</p>
 			</div>
 		</div>

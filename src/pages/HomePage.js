@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillLinkedin, AiFillGithub, AiOutlineSmile } from 'react-icons/ai';
+import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import { TiSocialInstagram } from 'react-icons/ti';
 import { HiOutlineMail } from 'react-icons/hi';
 import { FaTwitter } from 'react-icons/fa';
@@ -9,6 +9,7 @@ import Calculator from '../components/Calculator';
 import './HomePage.scss';
 import Lyrically from '../components/Lyrically';
 import QuoteApp from '../components/QuoteApp';
+import SynthApp from '../components/SynthApp';
 
 const HomePage = () => {
 	return (
@@ -81,7 +82,7 @@ const HomePage = () => {
 					</div>
 				</div>
 				<div className="col-sm-7 overflow-auto vh-100 ps-0 pe-0">
-					<div className="project-1 d-flex justify-content-center align-items-center">
+					<div className="photo-section d-flex justify-content-center align-items-center">
 						<div style={{ height: '450px', width: '75%' }} className="text-center shadow row">
 							<img
 								style={{ objectFit: 'cover', height: '100%', width: '100%' }}
@@ -91,19 +92,17 @@ const HomePage = () => {
 							/>
 						</div>
 					</div>
-					<div className="project-2">
+					<div className="project-lyrically">
 						<Lyrically />
 					</div>
-					<div className="project-3">
+					<div className="project-calculator">
 						<Calculator />
 					</div>
-					<div className="project-4">
+					<div className="project-quote">
 						<QuoteApp />
 					</div>
-					<div className="project-5 d-flex flex-column justify-content-center align-items-center">
-						<h4>
-							More Work Coming Soon <AiOutlineSmile />
-						</h4>
+					<div className="project-synth">
+						<SynthApp />
 					</div>
 					<footer className="pt-4 pb-1">
 						<p>&#169; 2021 Ryland Oehlers. Made in the USA.</p>
