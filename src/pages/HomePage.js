@@ -15,7 +15,7 @@ const HomePage = () => {
 	return (
 		<div className="flex-grow-1 d-flex flex-column flex-sm-row overflow-auto">
 			<div className="row justify-content-center flex-grow-sm-1 flex-grow-0">
-				<div className="sidebar col-sm-5 flex-grow-0 sticky-top d-flex flex-column justify-content-center align-items-start vh-100">
+				<div className="sidebar col-sm-5 flex-grow-0 sticky-sm-top d-flex flex-column justify-content-center align-items-start vh-100">
 					<div className="about-name mt-5 ms-5">
 						<h1 className="mt-2 slide-in pe-2">Ryland Oehlers</h1>
 					</div>
@@ -80,7 +80,7 @@ const HomePage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="col-sm-7 overflow-auto vh-100 ps-0 pe-0">
+				<div className="col-sm-7 overflow-scroll vh-100 ps-0 pe-0">
 					<div className="photo-section d-flex justify-content-center align-items-center">
 						<div style={{ height: '500px', width: '75%' }} className="text-center shadow row">
 							<img
