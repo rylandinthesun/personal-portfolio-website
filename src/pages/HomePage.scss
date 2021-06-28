@@ -221,11 +221,17 @@ footer {
 .slide-in {
 	animation: slideMe .6s;
 }
+
 .slide-in-2 {
 	animation: slideMe2 1.2s;
 }
+
 .slide-in-3 {
 	animation: slideMe3 1.8s;
+}
+
+.col-sm-7 {
+	-webkit-overflow-scrolling: touch;
 }
 
 @keyframes slideMe {
