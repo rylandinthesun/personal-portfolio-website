@@ -4,26 +4,30 @@ $light: #bac7a7;
 $cream: #e5e4cc;
 $lightCream: #fffbdf;
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800;900&display=swap');
+
 .sidebar {
 	background-color: $cream;
 }
 
 .about-header {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Playfair Display', serif;
 	h3 {
+		font-size: 1.6rem;
 		line-height: 1;
-		font-weight: 800;
+		font-weight: 900;
 		color: #333;
+		letter-spacing: -0.5px;
 	}
 }
 
 .about-name {
-	font-family: 'Montserrat', sans-serif;
 	color: $dark;
 	h1 {
+		font-family: 'Montserrat', sans-serif;
 		font-weight: 900;
 		letter-spacing: -2.5px;
-		font-size: 6.4vh;
+		font-size: 6.5vh;
 		transform-origin: translateX(20px) translateY(0px) translateZ(0px);
 		transition: opacity 500ms ease 0s, transform 500ms ease 0s;
 		transform: translateX(0px) translateY(0px) translateZ(0px);
@@ -198,11 +202,13 @@ $lightCream: #fffbdf;
 }
 
 footer {
-	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background-color: $dark;
 	p {
 		color: $lightCream;
-		font-size: 11px;
+		font-size: 10px;
 		font-weight: 300;
 	}
 }

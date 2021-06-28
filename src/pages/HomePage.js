@@ -17,7 +17,7 @@ const HomePage = () => {
 			<div className="row justify-content-center flex-grow-sm-1 flex-grow-0">
 				<div className="sidebar col-sm-5 flex-grow-0 sticky-top d-flex flex-column justify-content-center align-items-start vh-100">
 					<div className="about-name mt-5 ms-5">
-						<h1 className="mt-2 slide-in pe-3">Ryland Oehlers</h1>
+						<h1 className="mt-2 slide-in pe-2">Ryland Oehlers</h1>
 					</div>
 
 					<div className="about-header slide-in ms-5">
@@ -103,7 +103,7 @@ const HomePage = () => {
 					<div className="project-synth">
 						<SynthApp />
 					</div>
-					<footer className="pt-4 pb-1">
+					<footer className="pt-3">
 						<p>&#169; 2021 Ryland Oehlers. Made in the USA.</p>
 					</footer>
 				</div>
