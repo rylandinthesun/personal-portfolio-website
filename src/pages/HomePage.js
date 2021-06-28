@@ -82,12 +82,12 @@ const HomePage = () => {
 				</div>
 				<div className="col-sm-7 overflow-auto vh-100 ps-0 pe-0">
 					<div className="photo-section d-flex justify-content-center align-items-center">
-						<div style={{ height: '450px', width: '75%' }} className="text-center shadow row">
+						<div style={{ height: '500px', width: '75%' }} className="text-center shadow row">
 							<img
 								style={{ objectFit: 'cover', height: '100%', width: '100%' }}
 								src={selfPortrait}
 								className="img-fluid rounded-3 col px-0"
-								alt="Ryland swimming"
+								alt="Ryland self"
 							/>
 						</div>
 					</div>
