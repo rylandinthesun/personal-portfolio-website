@@ -214,8 +214,16 @@ footer {
 }
 
 .arrow-down {
-	font-size: x-large;
-	color: $light;
+	display: none;
+}
+
+@media screen and (max-width: 625px) {
+	.arrow-down {
+		clear: both;
+		display: block;
+		font-size: x-large;
+		color: $light;
+	}
 }
 
 .slide-in {
