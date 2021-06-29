@@ -1,4 +1,3 @@
-import React from 'react';
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import { TiSocialInstagram } from 'react-icons/ti';
 import { HiOutlineMail } from 'react-icons/hi';
@@ -21,15 +20,14 @@ const HomePage = () => {
 					</div>
 
 					<div className="about-header slide-in ms-5 mt-3">
-						<h3 className="mb-0">DEVELOPER.</h3>
-						<h3 className="mb-0">DESIGNER &</h3>
+						<h3 className="mb-0">DEVELOPER &</h3>
 						<h3 className="mb-0">MUSICIAN.</h3>
 					</div>
 					<div className="about-body ms-5 mt-3 w-75">
 						<p className="pe-3 pt-3 slide-in-2">
-							Software Developer currently based in Ohio who previously worked in the music industry as a
-							Professional Full-Time Touring Musician. Scroll to check out some of my projects or click
-							the links below to get in touch.
+							Software Developer currently based in Ohio who is transitioning from working in the music
+							industry as a Professional Full-Time Touring Musician. Scroll to check out some of my
+							projects or click the links below to get in touch.
 						</p>
 					</div>
 					<div className="about-links slide-in-3 ms-5">
@@ -82,11 +80,11 @@ const HomePage = () => {
 				</div>
 				<div className="col-sm-7 vh-100 ps-0 pe-0">
 					<div className="photo-section d-flex justify-content-center align-items-center">
-						<div style={{ height: '500px', width: '75%' }} className="text-center shadow row">
+						<div className="self-portrait text-center shadow row">
 							<img
 								style={{ objectFit: 'cover', height: '100%', width: '100%' }}
 								src={selfPortrait}
-								className="img-fluid rounded-3 col px-0"
+								className="self-img img-fluid rounded-3 col px-0"
 								alt="Ryland self"
 							/>
 						</div>

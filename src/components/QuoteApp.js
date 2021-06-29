@@ -19,18 +19,18 @@ const QuoteApp = () => {
 					</a>
 				</p>
 			</div>
-			<div style={{ height: '400px', width: '200px' }} className="text-center row mb-2">
+			<div className="iphone-photo text-center row mb-2">
 				<img
 					style={{ objectFit: 'cover', height: '100%', width: '100%' }}
 					src={quoteMock}
-					className="img-fluid rounded-1 col px-0"
+					className="quote-photo img-fluid rounded-1 col px-0"
 					alt="Calculator App"
 				/>
 			</div>
 
 			<div className="project-footer mt-4 w-75 text-center">
 				<p>
-					<b style={{ fontWeight: '700' }}>Tech Used:</b> React, JavaScript, HTML/CSS & Quotable API.
+					<span className="footer-bold">Tech Used:</span> React, JavaScript, HTML/CSS & Quotable API.
 				</p>
 			</div>
 		</div>

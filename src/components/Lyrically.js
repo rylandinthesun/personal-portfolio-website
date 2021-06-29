@@ -19,18 +19,18 @@ const Lyrically = () => {
 					</a>
 				</p>
 			</div>
-			<div style={{ height: '400px', width: '80%' }} className="text-center row mb-2">
+			<div className="macbook-photo text-center row mb-2">
 				<img
 					style={{ objectFit: 'cover', height: '320px', width: '300px' }}
 					src={lyricallyHome}
-					className="img-fluid rounded-1 col px-0 mt-5"
+					className=" lyrically-photo img-fluid rounded-1 col px-0 mt-5"
 					alt="Lyrically Homepage"
 				/>
 			</div>
 
 			<div className="project-footer mt-4 w-75 text-center">
 				<p>
-					<b style={{ fontWeight: '700' }}>Tech Used:</b> Python, Flask, SQLAlchemy, BeautifulSoup, Tailwind &
+					<span className="footer-bold">Tech Used:</span> Python, Flask, SQLAlchemy, BeautifulSoup, Tailwind &
 					Genius Lyrics API.
 				</p>
 			</div>

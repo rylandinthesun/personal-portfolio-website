@@ -4,7 +4,11 @@ $light: #bac7a7;
 $cream: #e5e4cc;
 $lightCream: #fffbdf;
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .sidebar {
 	background-color: $cream;
@@ -12,9 +16,9 @@ $lightCream: #fffbdf;
 
 .about-header {
 	h3 {
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Rubik', sans-serif;
 		font-size: 1.6rem;
-		line-height: 1.4rem;
+		line-height: 1.2rem;
 		font-weight: 900;
 		color: #333;
 		letter-spacing: -0.5px;
@@ -24,10 +28,9 @@ $lightCream: #fffbdf;
 .about-name {
 	color: $dark;
 	h1 {
-		font-family: 'Playfair Display', serif;
-		font-weight: 900;
-		letter-spacing: -1px;
-		font-size: 6.5vh;
+		font-family: 'Syne', sans-serif;
+		font-weight: 700;
+		font-size: 5vh;
 		transform-origin: translateX(20px) translateY(0px) translateZ(0px);
 		transition: opacity 500ms ease 0s, transform 500ms ease 0s;
 		transform: translateX(0px) translateY(0px) translateZ(0px);
@@ -38,7 +41,7 @@ $lightCream: #fffbdf;
 	border-top: 1px solid $green;
 	p {
 		font-size: small;
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Rubik', sans-serif;
 		color: $green;
 		a {
 			text-decoration: none;
@@ -113,32 +116,6 @@ $lightCream: #fffbdf;
 	color: $dark;
 }
 
-.email-link {
-	font-family: 'Montserrat', sans-serif;
-}
-
-.inTouch-btn {
-	border: 3px solid $dark;
-	outline: none;
-	color: $lightCream;
-	background-color: $dark;
-	padding: 8px 20px;
-	font-size: smaller;
-	transition: 0.4s ease;
-}
-
-.inTouch-btn:hover {
-	background-color: $lightCream;
-	color: $dark;
-	box-shadow: 4px 4px;
-}
-
-.inTouch-btn:active {
-	box-shadow: 0px 0px;
-	transition: 0.2s;
-	transform: translateY(0px);
-}
-
 .photo-section {
 	width: 100%;
 	height: 600px;
@@ -173,7 +150,7 @@ $lightCream: #fffbdf;
 	p {
 		a {
 			color: $lightCream;
-			font-family: 'Montserrat', sans-serif;
+			font-family: 'Rubik', sans-serif;
 			font-size: 18px;
 			font-weight: 700;
 			text-decoration: none;
@@ -193,7 +170,7 @@ $lightCream: #fffbdf;
 
 .project-footer {
 	p {
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Playfair Display', serif;
 		color: $lightCream;
 		font-size: 12px;
 		font-weight: 300;
@@ -208,9 +185,14 @@ footer {
 	background-color: $dark;
 	p {
 		color: $lightCream;
+		font-family: 'Rubik', sans-serif;
 		font-size: 10px;
 		font-weight: 300;
 	}
+}
+
+.footer-bold {
+	font-weight: 900;
 }
 
 .arrow-down {
@@ -219,6 +201,21 @@ footer {
 
 .col-sm-7 {
 	overflow-y: auto;
+}
+
+.self-portrait {
+	height: 450px;
+	width: 75%;
+}
+
+.macbook-photo {
+	height: 400px;
+	width: 80%;
+}
+
+.iphone-photo {
+	height: 400px;
+	width: 200px;
 }
 
 @media screen and (max-width: 575px) {
@@ -244,10 +241,6 @@ footer {
 
 .slide-in-3 {
 	animation: slideMe3 1.8s;
-}
-
-.col-sm-7 {
-	-webkit-overflow-scrolling: touch;
 }
 
 @keyframes slideMe {

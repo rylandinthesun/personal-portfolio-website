@@ -24,7 +24,7 @@ const Calculator = () => {
 					</a>
 				</p>
 			</div>
-			<div style={{ height: '400px', width: '200px' }} className="text-center row mb-2">
+			<div className="iphone-photo text-center row mb-2">
 				<img
 					style={{ objectFit: 'cover', height: '100%', width: '100%' }}
 					src={calculatorMock}
@@ -35,7 +35,7 @@ const Calculator = () => {
 
 			<div className="project-footer mt-4 w-75 text-center">
 				<p>
-					<b style={{ fontWeight: '700' }}>Tech Used:</b> React, JavaScript, HTML & SCSS.
+					<span className="footer-bold">Tech Used:</span> React, JavaScript, HTML & SCSS.
 				</p>
 			</div>
 		</div>
