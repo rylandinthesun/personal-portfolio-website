@@ -27,9 +27,9 @@ const HomePage = () => {
 					<div className="about-body ms-5 mt-3 w-75">
 						<p className="pe-3 pt-4 slide-in-2">
 							I'm Ry. I am currently based in Toledo, Ohio. I used to be a Full-Time Touring Musician for
-							10+ years but, I am now transitioning into the world of Software Development. I specialize
-							in Front-End development and am passionate about bringing together creative designs, with
-							code. <span className="desk-view">Scroll on the right to see some of my projects.</span>
+							10+ years but, am now transitioning into the world of Software Development. I specialize in
+							Front-End development and am passionate about bringing together creative designs, with code.{' '}
+							<span className="desk-view">Scroll on the right to see some of my projects.</span>
 							<span className="mobile-view">Scroll to see some of my projects.</span> Contact me by links
 							below.
 						</p>
