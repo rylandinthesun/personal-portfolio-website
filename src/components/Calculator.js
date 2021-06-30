@@ -1,6 +1,6 @@
-import React from 'react';
 import calculatorMock from '../images/calculatorIphoneMock.png';
 import { AiFillGithub } from 'react-icons/ai';
+import { BsArrowRightShort } from 'react-icons/bs';
 
 const Calculator = () => {
 	return (
@@ -12,15 +12,7 @@ const Calculator = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						Calculator{' '}
-					</a>
-					<a
-						className="ps-1"
-						href="https://github.com/rylandinthesun/react-calculator"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<AiFillGithub />
+						Calculator <BsArrowRightShort className="right-arrow" />
 					</a>
 				</p>
 			</div>
@@ -29,13 +21,22 @@ const Calculator = () => {
 					style={{ objectFit: 'cover', height: '100%', width: '100%' }}
 					src={calculatorMock}
 					className="img-fluid rounded-1 col px-0"
+					loading="lazy"
 					alt="Calculator App"
 				/>
 			</div>
 
 			<div className="project-footer mt-4 w-75 text-center">
 				<p>
-					<span className="footer-bold">Tech Used:</span> React, JavaScript, HTML & SCSS.
+					<span className="footer-bold">Tech Used:</span> React, JavaScript, HTML & SCSS.{' '}
+					<a
+						className="ps-1"
+						href="https://github.com/rylandinthesun/react-calculator"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<AiFillGithub />
+					</a>
 				</p>
 			</div>
 		</div>

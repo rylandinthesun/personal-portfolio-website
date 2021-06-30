@@ -1,5 +1,6 @@
 import quoteMock from '../images/quoteAppMock.png';
 import { AiFillGithub } from 'react-icons/ai';
+import { BsArrowRightShort } from 'react-icons/bs';
 
 const QuoteApp = () => {
 	return (
@@ -7,15 +8,7 @@ const QuoteApp = () => {
 			<div className="project-title d-flex align-self-start ps-5">
 				<p>
 					<a href="https://react-quotes-rylandinthesun.vercel.app" target="_blank" rel="noopener noreferrer">
-						Random Quote{' '}
-					</a>
-					<a
-						className="ps-1"
-						href="https://github.com/rylandinthesun/react-quote"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<AiFillGithub />
+						Random Quote <BsArrowRightShort className="right-arrow" />
 					</a>
 				</p>
 			</div>
@@ -24,13 +17,22 @@ const QuoteApp = () => {
 					style={{ objectFit: 'cover', height: '100%', width: '100%' }}
 					src={quoteMock}
 					className="quote-photo img-fluid rounded-1 col px-0"
+					loading="lazy"
 					alt="Calculator App"
 				/>
 			</div>
 
 			<div className="project-footer mt-4 w-75 text-center">
 				<p>
-					<span className="footer-bold">Tech Used:</span> React, JavaScript, HTML/CSS & Quotable API.
+					<span className="footer-bold">Tech Used:</span> React, JavaScript, HTML/CSS & Quotable API.{' '}
+					<a
+						className="ps-1"
+						href="https://github.com/rylandinthesun/react-quote"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<AiFillGithub />
+					</a>
 				</p>
 			</div>
 		</div>

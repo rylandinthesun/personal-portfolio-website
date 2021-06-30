@@ -20,14 +20,18 @@ const HomePage = () => {
 					</div>
 
 					<div className="about-header slide-in ms-5 mt-3">
+						<h3 className="mb-0">SOFTWARE</h3>
 						<h3 className="mb-0">DEVELOPER &</h3>
 						<h3 className="mb-0">MUSICIAN.</h3>
 					</div>
 					<div className="about-body ms-5 mt-3 w-75">
-						<p className="pe-3 pt-3 slide-in-2">
-							Software Developer currently based in Ohio who is transitioning from working in the music
-							industry as a Professional Full-Time Touring Musician. Scroll to check out some of my
-							projects or click the links below to get in touch.
+						<p className="pe-3 pt-4 slide-in-2">
+							I'm Ry. I am currently based in Toledo, Ohio. I used to be a Full-Time Touring Musician for
+							10+ years but, I am now transitioning into the world of Software Development. I specialize
+							in Front-End development and am passionate about bringing together creative designs, with
+							code. <span className="desk-view">Scroll on the right to see some of my projects.</span>
+							<span className="mobile-view">Scroll to see some of my projects.</span> Contact me by links
+							below.
 						</p>
 					</div>
 					<div className="about-links slide-in-3 ms-5">
@@ -85,6 +89,7 @@ const HomePage = () => {
 								style={{ objectFit: 'cover', height: '100%', width: '100%' }}
 								src={selfPortrait}
 								className="self-img img-fluid rounded-3 col px-0"
+								loading="lazy"
 								alt="Ryland self"
 							/>
 						</div>
@@ -102,7 +107,7 @@ const HomePage = () => {
 						<SynthApp />
 					</div>
 					<footer className="pt-3">
-						<p>&#169; 2021 Ryland Oehlers. Made in the USA.</p>
+						<p>&#169; 2021 Ryland Oehlers. I created this site with React :)</p>
 					</footer>
 				</div>
 			</div>
