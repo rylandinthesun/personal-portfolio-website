@@ -17,8 +17,8 @@ $lightCream: #fffbdf;
 .about-header {
 	h3 {
 		font-family: 'Rubik', sans-serif;
-		font-size: 1.8rem;
-		line-height: 1.5rem;
+		font-size: 1.6rem;
+		line-height: 1.4rem;
 		font-weight: 900;
 		color: #333;
 		letter-spacing: -0.5px;
@@ -30,7 +30,7 @@ $lightCream: #fffbdf;
 	h1 {
 		font-family: 'Syne', sans-serif;
 		font-weight: 700;
-		font-size: 6vh;
+		font-size: 5vh;
 		transform-origin: translateX(20px) translateY(0px) translateZ(0px);
 		transition: opacity 500ms ease 0s, transform 500ms ease 0s;
 		transform: translateX(0px) translateY(0px) translateZ(0px);
@@ -206,7 +206,7 @@ footer {
 	p {
 		color: $lightCream;
 		font-family: 'Rubik', sans-serif;
-		font-size: 10px;
+		font-size: 0.6rem;
 		font-weight: 300;
 	}
 }
